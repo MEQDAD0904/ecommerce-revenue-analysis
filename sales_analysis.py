@@ -3,15 +3,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # upload data
-customers = pd.read_csv('olist_customers.csv')
-location = pd.read_csv('olist_geolocation.csv')
-orders = pd.read_csv('olist_orders.csv')
-order_items = pd.read_csv('olist_order_items.csv')
-products = pd.read_csv('olist_products.csv')
-sellers = pd.read_csv('olist_sellers.csv')
-reviews = pd.read_csv('olist_order_reviews.csv')
-translations = pd.read_csv('product_category_name_translation.csv')
-payments = pd.read_csv('olist_order_payments.csv')
+customers = pd.read_csv('customers.csv')
+orders = pd.read_csv('orders.csv')
+order_items = pd.read_csv('order_items.csv')
+products = pd.read_csv('products.csv')
+payments = pd.read_csv('order_payments.csv')
 
 # data cleaning
 order_items = order_items.dropna(subset=["price", "freight_value"])
