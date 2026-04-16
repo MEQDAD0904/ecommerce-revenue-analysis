@@ -93,7 +93,7 @@ Operational issue
 Requires validation before business action
 ______________________________________________
 How to Run
-Load datasets (orders, items, payments, products)
+Load datasets (customers, orders, order_items,order_payments, products)
 Run sales_analysis.py
 Explore visualizations
 ______________________________________________
